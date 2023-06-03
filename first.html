@@ -1,0 +1,170 @@
+ <!--
+types of tag
+    pari tags
+    self-closing tag
+heading tag
+    h1,h2,h3,h4,h5,h6
+
+self-closing tag   
+    hr,br,link,meta,img,input
+
+formatting elements
+    p,b,strong,i,em,sub,sup,small,mark,del,ins
+
+pre-formatting tag
+    pre
+
+Quotation tags
+   List tags types
+        orderlist(ol,li)
+        unordered list(ul,li)
+        description list(dl,dt,dd)  
+link tags
+       link src,a href
+ image
+ <img src="">
+ audio,video
+ block level,inline
+semantic tag
+table 
+form
+iframe
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!--heading tag-->
+ <h1>using h1</h1>
+ <h2>using h2</h2>
+  <h3>using h3</h3>
+  <h4>using h4</h4>
+  <h5>using h5</h5>
+  <h6>using h6</h6>
+ <!--horizontal tag-->
+  <hr/>
+ <!--paragarph tag-->
+ <p>Paired Tags: Paired tags, also known as container tags or opening/closing tags, consist of an opening tag and a closing tag. The content and nested elements are placed between the opening and closing tags. Some examples of paired tags include:h1 to h6,p,b,table</p>
+<p>Self-Closing Tags: Self-closing tags, also known as void elements or empty elements, do not require a separate closing tag. They represent elements that do not have any content or nested elements. Some examples of self-closing tags include:hr,br,link,img,meta,input</p>
+
+<hr/>
+<!--pre-formatting tag-->
+<pre>
+    Chinnanjiru Nilave Ennaivittu Enadi Neenginaiyo
+    Oru Kollai Puyaladithal Sakhiye
+    Senjudar Thangidumo, Senjudar Thangidumo
+    Atham Azhindhadhadi Anname Rathamum Oyndhadhadi
+</pre>
+<hr/>
+<!--formatting elements-->
+<p><b>Paired Tags</b>: <i>Paired tags</i>, <small>also</small> known as container tags or <mark>opening/closing tags</mark>, consist of an opening tag and a closing tag. The content and nested elements are placed between the opening and closing tags. Some examples of paired tags include:<sup>h1 to h6,p,b,table</sup></p>
+<p><strong>Self-Closing Tags</strong> : <em>Self-closing tags</em>, also known as <ins>void elements</ins> or <del>empty elements</del>, do not require a separate closing tag. They represent elements that do not have any content or nested elements. Some examples of self-closing tags include:<sub>hr,br,link,img,meta,input</sub></p>
+
+<hr/>
+<!--Quotation tags-->
+
+<!--List tags types-->
+<!--underordered list tags -->
+<ul>
+<li>underorderlist1</li>
+<li>underorderlist2</li>
+<li>underorderlist3</li></ul>
+<!--orderedlist tags -->
+<ol>
+    <li>underorderlist1</li>
+    <li>underorderlist2</li>
+    <li>underorderlist3</li></ol>
+
+    <!--description list tags -->
+    <dl>
+        <dt>html</dt>
+        <dd>html used for web page</dd>
+        <dt>css</dt>
+        <dd>css used for style a web page</dd>
+        </dl>
+        <hr/>
+ <!--link tags -->
+       <a href="https://www.w3schools.com/">click here for studymaterial</a>
+       <hr/>
+       <!--image tags -->
+ <img src="https://img.freepik.com/premium-photo/image-colorfl-galaxy-sky-generative-ai_791316-9864.jpg?w=2000" alt="image not found" width="100px" height="100px"/>
+   <!--table tags -->
+   <table>
+    <thead>
+        <tr><th>s.no</th>
+        <th>f.name</th>
+        <th>age</th></tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>aaaa</td>
+                <td>15</td>
+            </tr>
+            <tr> <td>2</td>
+                <td>aaaa</td>
+                <td>25</td></tr>
+            <tr> <td>3</td>
+                <td>aaaa</td>
+                <td>55</td></tr>
+   </table>
+   <table>
+    <thead>
+        <tr><th>s.no</th>
+        <th colspan="2">f.name</th>
+       </tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>aaaa</td>
+                <td>15</td>
+            </tr>
+            <tr> <td>2</td>
+                <td>aaaa</td>
+                <td>25</td></tr>
+            <tr> <td>3</td>
+                <td>aaaa</td>
+                <td>55</td></tr>
+   </table>
+   <!--form tags -->
+   <h2>Register form</h2>
+<form>
+   <br/> <label>First Name</label>
+    <input type="text" name="firstname" placeholder="enter ur firstname"/>
+    <br/> <label>lastName</label>
+    <input type="text" name="lastname" placeholder="enter ur lastname"/>
+      <!--input type="radio" -->
+    <br/><label>GENDER:</label>
+    <br/> <input type="radio" name="gender" value="male"/> <label>male</label>
+    <br/> <input type="radio" name="gender" value="female"/><label>female</label>
+    <br/> <input type="radio" name="gender" value="other"/><label>other</label>
+       <!--input type="checkbox" -->
+    <br/><label for="hobby">hobbiess:</label>
+      <br/> <input type="checkbox" name="hobbies1" value="cycle"/> <label for="hobbies1">cycle</label>
+    <br/> <input type="checkbox" name="hobbies2" value="read"/><label for="hobbies2">read</label>
+    <br/> <input type="checkbox" name="hobbies3" value="eating"/><label for="hobbies3">eating</label>
+ <!--input type="select" -->
+ <br/><label for="age">age group:</label>
+ <select>
+    <option value="">select option</option> 
+    <option value="school">10-20</option>
+    <option value="college">21-25</option>
+    <option value="working">26-40</option>
+</select>
+<button type="submit">submit</button>
+</form>
+ <!--iframe -->
+ <iframe src="https://www.w3schools.com/html/" width="1000px" height="1000px"></iframe>
+ <iframe src="https://www.w3schools.com/html/" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+<!---audio,video-->
+<!-- semantic tag-->
+
+
+</body>
+</html>
